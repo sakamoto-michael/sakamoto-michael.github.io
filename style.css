@@ -60,6 +60,11 @@ body {
   vertical-align: middle;
 }
 
+/* Error page */
+.error-page {
+  padding-top: 50px;
+}
+
 /* General Styling */
 
 .text-center {
