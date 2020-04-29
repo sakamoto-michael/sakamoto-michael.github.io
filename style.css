@@ -1,9 +1,22 @@
-/* Page font */
+/* General High-level Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
 }
 
-/* Buttons */
+a {
+  text-decoration: none;
+}
+
+footer {
+  padding: 20px;
+}
+
+/* Landing Buttons */
 .btn {
   background-color: #333;
   color: #EEE;
@@ -28,9 +41,7 @@ body {
   margin: 0;
   padding-right: 80px;
   background: #333;
-  border-radius: 5px;
   overflow: auto;
-
 }
 
 /* Floating list items to be lined horizontally */
@@ -53,10 +64,10 @@ body {
 /* Landing area */
 
 #landing {
-  min-height: 300px;
+  min-height: 400px;
   background: url('./images/Ginkakuji.jpg') no-repeat center/cover;
   color: #eee;
-  border-radius: 5px;
+  background-attachment: fixed;
 }
 
 #landing-content {
@@ -77,6 +88,10 @@ body {
 #landing-content h2 {
   line-height: 100%;
   vertical-align: middle;
+}
+
+#landing-content p {
+  padding-top:30px;
 }
 
 /* Error page */
