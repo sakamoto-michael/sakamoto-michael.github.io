@@ -38,6 +38,15 @@ footer p {
   text-align: center;
 }
 
+.box {
+  float: left;
+  background-color: #3f72af;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+}
+
 /* Navigation Bar */
 .navbar {
   background: #f9f7f7;
@@ -106,4 +115,14 @@ footer p {
 /* Error page */
 .error-page {
   padding-top: 50px;
+}
+
+/* Contact Page */
+#contact-section {
+  padding: 100px 0;
+  background-color: #333;
+}
+
+#contact-section .box {
+  width: 30%;
 }
