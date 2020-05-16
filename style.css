@@ -91,7 +91,7 @@ footer p {
 
 #landing-section {
   height: 500px;
-  background: url('./images/Ginkakuji_B.jpg') no-repeat center/cover;
+  background: #333 no-repeat center/cover;
   color: #eee;
   background-attachment: fixed;
 }
