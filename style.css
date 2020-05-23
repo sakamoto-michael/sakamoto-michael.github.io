@@ -104,13 +104,24 @@ footer p {
   padding-top: 260px;
 }
 
-/* Error page */
-.error-page {
+/* About Section */
+#about-section {
   padding-top: 50px;
 }
 
-/* Contact Page */
+#about-section h2 {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+/* Resume Section */
+#resume-section {
+  padding-top: 20px;
+}
+
+/* Contact Section */
 #contact-section {
+  margin-top: 20px;
   padding: 100px 0;
   background-color: #333;
 }
@@ -134,4 +145,18 @@ footer p {
 
 #contact-section .box #external-link-icon {
   float: right;
+}
+
+/* Error page */
+.error-page {
+  padding-top: 200px;
+  padding-bottom: 10%;
+}
+
+.error-page h1 {
+  padding-bottom: 20px;
+}
+
+.error-page a {
+
 }
