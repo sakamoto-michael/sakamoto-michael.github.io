@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <meta name="description" content="Welcome to my personal GitHub site! Access my resume, projects, and contact information.">
+  <meta name="description" content="Welcome to my personal GitHub site!">
   <title>MS | Michael Sakamoto</title>
 
   <!-- Styling -->
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
@@ -20,28 +21,55 @@
       <div class="container">
         <h1 class="logo"><a href="index.html">MS</a></h1>
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#" target="_blank">Resume</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#landing-section" class="active">Home</a></li>
+          <li><a href="#resume-section">Resume</a></li>
+          <li><a href="#contact-section">Contact</a></li>
         </ul>
       </div>
     </navbar>
   </header>
 
+  <div class="navbar-spacer"></div>
+
   <div id="landing-section">
     <div id="landing-overlay" class="container">
       <div id="landing-content">
         <h1>Welcome!</h1>
-        <p>
-          For projects: <a href="#" target="_blank" class="btn"> (Icon Here)</a>
-        </p>
-        <p> 
-          For resume: <a href="#" target="_blank" class="btn"> (Icon Here) </a>
-        </p>
       </div>
     </div>
     <div class="overlay"></div>
+  </div>
+
+  <div id="resume-section">
+    <div class="container">
+      <a href="#" class="text-center">
+        <div class="box">
+          <p>VIEW RESUME</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div id="contact-section">
+    <div class="container">
+      <div class="box" onclick="copyToClipboard()">
+        <!-- Add a hover and "copied to clipboard" tooltip -->
+        <h1>E-mail</h1>
+        <p>sakamoto-michael@hotmail.com</p>
+      </div>
+      <a href="https://github.com/sakamoto-michael/" target="_blank">
+        <div class="box">
+          <i class="fab fa-github fa-2x"></i>
+          <h1>GitHub</h1>
+          <i id="external-link-icon" class="fas fa-external-link-alt"></i>
+          <p>sakamoto-michael</p>
+        </div>
+      </a>
+      <div class="box">
+        <h1>Phone</h1>
+        <p>123-456-7890</p>
+      </div>
+    </div>
   </div>
 
   <footer class="text-center">
