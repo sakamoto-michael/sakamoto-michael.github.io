@@ -15,6 +15,11 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
 footer {
   padding: 20px;
   background-color: #f9f7f7;
@@ -107,16 +112,18 @@ footer p {
 /* About Section */
 #about-section {
   padding-top: 50px;
+  height: 50%;
 }
 
-#about-section h2 {
-  font-size: 2em;
-  padding-bottom: 20px;
+/* Experience Section */
+#experience {
+  padding-bottom: 30px;
 }
 
 /* Resume Section */
 #resume-section {
-  padding-top: 20px;
+  padding-top: 50px;
+  height: 50%;
 }
 
 /* Contact Section */
