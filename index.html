@@ -11,8 +11,9 @@
   <!-- Styling -->
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  
 
 </head>
 <body>
@@ -32,12 +33,11 @@
   <div class="navbar-spacer"></div>
 
   <div id="landing-section">
-    <div id="landing-overlay" class="container">
+    <div class="container">
       <div id="landing-content">
         <h1>Welcome!</h1>
       </div>
     </div>
-    <div class="overlay"></div>
   </div>
 
   <div id="resume-section">
@@ -53,7 +53,7 @@
   <div id="contact-section">
     <div class="container">
       <div class="box" onclick="copyToClipboard()">
-        <!-- Add a hover and "copied to clipboard" tooltip -->
+        <!-- "Copied to clipboard" tooltip -->
         <h1>E-mail</h1>
         <p>sakamoto-michael@hotmail.com</p>
       </div>
@@ -65,7 +65,7 @@
           <p>sakamoto-michael</p>
         </div>
       </a>
-      <div class="box">
+      <div class="box" onclick="copyToClipboard()">
         <h1>Phone</h1>
         <p>123-456-7890</p>
       </div>
