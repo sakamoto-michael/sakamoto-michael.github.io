@@ -19,9 +19,17 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #3f72af;
+}
+
 h2 {
   font-size: 2em;
   padding-bottom: 20px;
+}
+
+p {
+  font-size: 1.05em;
 }
 
 footer {
@@ -55,6 +63,11 @@ footer p {
   border-radius: 5px;
   padding: 20px;
   margin: 5px;
+}
+
+.box:hover {
+  background-color: #112d4e;
+  cursor: pointer;
 }
 
 /* Navigation Bar */
@@ -113,6 +126,10 @@ footer p {
   padding-top: 260px;
 }
 
+#landing-content h2 {
+  padding-top: 60px;
+}
+
 /* About Section */
 #about-section {
   padding-top: 50px;
@@ -124,10 +141,21 @@ footer p {
   padding-bottom: 30px;
 }
 
+#experience .overview {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#experience .description {
+  padding-bottom: 20px;
+}
+
 /* Resume Section */
 #resume-section {
   padding-top: 50px;
-  height: 50%;
+  height: 100%;
 }
 
 /* Contact Section */
@@ -139,11 +167,6 @@ footer p {
 
 #contact-section .box {
   width: 32%;
-}
-
-#contact-section .box:hover {
-  background-color: #112d4e;
-  cursor: pointer;
 }
 
 #contact-section h1 {
