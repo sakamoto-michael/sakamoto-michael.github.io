@@ -1,196 +1,21 @@
-/* Core Styling */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-html {
-  scroll-padding-top: 66px;
+main {
+  flex: 1 0 auto;
 }
 
-html, body {
-  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  height: 100%;
-  line-height: 1.7em;
+nav .brand-logo {
+  padding-left: 30px;
 }
 
-a {
-  text-decoration: none;
+.section {
+  padding: 2% 10%;
 }
 
-a:visited {
-  color: #3f72af;
-}
-
-h2 {
-  font-size: 2em;
-  padding-bottom: 20px;
-}
-
-p {
-  font-size: 1.05em;
-}
-
-footer {
-  padding: 20px;
-  background-color: #f9f7f7;
-  color: #333;
-}
-
-footer p {
-  font-size: 0.9em;
-}
-
-
-/* Utility Classes */
-.container {
-  margin: auto;
-  max-width: 1100px; /* Prevent stretching on wide resolutions */
-  overflow: auto;
-  padding: 0 20px;
-  height: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.box {
-  float: left;
-  background-color: #3f72af;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 5px;
-}
-
-.box:hover {
-  background-color: #112d4e;
-  cursor: pointer;
-}
-
-/* Navigation Bar */
-.navbar {
-  background: #f9f7f7;
-  color: #333;
-  overflow: auto;
-  position: fixed;
-  width: 100%;
-}
-
-.navbar a {
-  color: #333;
-}
-
-.navbar h1 {
-  float: left;
-  padding-top: 20px;
-}
-
-.navbar h1 a:hover {
-  color: #3f72af;
-}
-
-.navbar ul {
-  list-style: none;
-  float: right;
-}
-
-.navbar ul li {
-  float: left;
-}
-
-.navbar ul li a {
-  display: block;
-  padding: 20px;
-}
-
-.navbar li a:hover,
-.navbar li a.active {
-  background-color: #EEE;
-  color: #3f72af;
-}
-
-/* Landing area */
-#landing-section {
-  height: 100%;
-  background: #333;
-  color: #eee;
-  text-align: center;
-}
-
-#landing-content h1 {
-  font-size: 5em;
-  text-align: center;
-  padding-top: 260px;
-}
-
-#landing-content h2 {
-  padding-top: 60px;
-}
-
-/* About Section */
-#about-section {
-  padding-top: 50px;
-  height: 50%;
-}
-
-#about-section p {
-  font-size: 1.10em;
-}
-
-/* Experience Section */
-#experience {
-  padding-bottom: 30px;
-}
-
-#experience .overview {
-  font-size: 1.2em;
+.overview {
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-#experience .description {
-  padding-bottom: 20px;
-}
-
-/* Resume Section */
-#resume-section {
-  padding-top: 50px;
-  height: 110%;
-}
-
-/* Contact Section */
-#contact-section {
-  margin-top: 20px;
-  padding: 100px 0;
-  background-color: #333;
-}
-
-#contact-section .box {
-  width: 32%;
-}
-
-#contact-section h1 {
-  display: inline-block;
-}
-
-#contact-section .box i {
-  display: inline;
-}
-
-#contact-section .box #external-link-icon {
-  float: right;
-}
-
-/* Error page */
-.error-page {
-  padding-top: 200px;
-  padding-bottom: 10%;
-}
-
-.error-page h1 {
-  padding-bottom: 20px;
 }
