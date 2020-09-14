@@ -2,20 +2,89 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 main {
   flex: 1 0 auto;
 }
 
+nav {
+  background-color: #FFF;
+  box-shadow: none;
+}
+
 nav .brand-logo {
   padding-left: 30px;
+  color: #333;
+}
+
+.navbar-fixed {
+  height: 0px;
 }
 
 .section {
   padding: 2% 10%;
 }
 
+.page-footer {
+  background-color: #1b262c;
+}
+
 .overview {
   font-weight: bold;
+}
+
+#nav a {
+  color: #333;
+}
+
+#resume-button {
+  /* Fade-in using CSS3 Animation */
+  opacity: 0;
+  -webkit-animation: 1.5s forwards fadein 1.5s;
+  -moz-animation: 1.5s forwards fadein 1.5s;
+   -ms-animation: 1.5s forwards fadein 1.5s;
+    -o-animation: 1.5s forwards fadein 1.5s;
+       animation: 1.5s forwards fadein 1.5s;
+}
+
+#landing {
+  width: 100vw;
+  height: 90vh;
+}
+
+#landing-content {
+  display: inline-block;
+  margin: 0 auto;
+  color: #333;
+
+  /* Fade-in using CSS3 Animation */
+  -webkit-animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s;
+   -ms-animation: fadein 1.5s;
+    -o-animation: fadein 1.5s;
+       animation: fadein 1.5s;
+}
+
+/* Animation Keyframes */
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
