@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -12,6 +17,9 @@ main {
 nav {
   background-color: #FFF;
   box-shadow: none;
+  height: 10vh;
+  line-height: 10vh;
+  border-bottom: 1px solid #AAA;
 }
 
 nav .brand-logo {
@@ -35,11 +43,11 @@ nav .brand-logo {
   font-weight: bold;
 }
 
-#nav a {
+#nav, nav {
   color: #333;
 }
 
-#resume-button {
+#resume-button, #to-content {
   /* Fade-in using CSS3 Animation */
   opacity: 0;
   -webkit-animation: 1.5s forwards fadein 1.5s;
@@ -49,6 +57,10 @@ nav .brand-logo {
        animation: 1.5s forwards fadein 1.5s;
 }
 
+#to-content {
+  color: #333;
+}
+
 #landing {
   width: 100vw;
   height: 90vh;
@@ -56,15 +68,16 @@ nav .brand-logo {
 
 #landing-content {
   display: inline-block;
+  opacity: 0;
   margin: 0 auto;
   color: #333;
 
   /* Fade-in using CSS3 Animation */
-  -webkit-animation: fadein 1.5s;
-  -moz-animation: fadein 1.5s;
-   -ms-animation: fadein 1.5s;
-    -o-animation: fadein 1.5s;
-       animation: fadein 1.5s;
+  -webkit-animation: forwards fadein 1.5s;
+  -moz-animation: forwards fadein 1.5s;
+   -ms-animation: forwards fadein 1.5s;
+    -o-animation: forwards fadein 1.5s;
+       animation: forwards fadein 1.5s;
 }
 
 /* Animation Keyframes */
